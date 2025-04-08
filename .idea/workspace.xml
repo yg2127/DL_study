@@ -4,8 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="496b16e6-6c3f-4a8a-a89a-bd5f93687991" name="변경" comment="yugeon branch 250407">
+    <list default="true" id="496b16e6-6c3f-4a8a-a89a-bd5f93687991" name="변경" comment="yugeon branch 250408">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yg2127/250407.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/week1_practice/250407.ipynb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -100,6 +101,11 @@
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/yg2127" />
+    </key>
+  </component>
   <component name="RunManager">
     <configuration default="true" type="DjangoTestsConfigurationType">
       <module name="DL_Study" />
@@ -232,6 +238,7 @@
       <workItem from="1744034643857" duration="2298000" />
       <workItem from="1744037326787" duration="14000" />
       <workItem from="1744038031115" duration="1371000" />
+      <workItem from="1744127340431" duration="1011000" />
     </task>
     <task id="LOCAL-00001" summary="yugeon branch test1">
       <option name="closed" value="true" />
