@@ -6,7 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="496b16e6-6c3f-4a8a-a89a-bd5f93687991" name="변경" comment="yugeon branch 250407">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/250407.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/250407.ipynb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,6 +28,7 @@
             <value>
               <list>
                 <branch-info repo="$PROJECT_DIR$" source="master" />
+                <branch-info repo="$PROJECT_DIR$" source="main" />
               </list>
             </value>
           </entry>
