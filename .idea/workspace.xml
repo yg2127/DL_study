@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="496b16e6-6c3f-4a8a-a89a-bd5f93687991" name="변경" comment="main setting">
+    <list default="true" id="496b16e6-6c3f-4a8a-a89a-bd5f93687991" name="변경" comment="yugeon branch 250409">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test1.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/test1.ipynb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,6 +28,7 @@
             <value>
               <list>
                 <branch-info repo="$PROJECT_DIR$" source="master" />
+                <branch-info repo="$PROJECT_DIR$" source="main" />
               </list>
             </value>
           </entry>
@@ -78,7 +78,9 @@
   &quot;associatedIndex&quot;: 8
 }</component>
   <component name="ProjectId" id="2v4d0SnoDQnq3zCzi9VA6Qkkg3f" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -88,7 +90,7 @@
     &quot;Python.GitHub_install.executor&quot;: &quot;Run&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;yugeon&quot;,
     &quot;last_opened_file_path&quot;: &quot;/Users/yugeon/DL_Study&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
@@ -98,6 +100,11 @@
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/yg2127" />
+    </key>
+  </component>
   <component name="RunManager">
     <configuration default="true" type="DjangoTestsConfigurationType">
       <module name="DL_Study" />
@@ -229,6 +236,8 @@
       <workItem from="1744034566218" duration="69000" />
       <workItem from="1744034643857" duration="2298000" />
       <workItem from="1744037326787" duration="14000" />
+      <workItem from="1744038031115" duration="1371000" />
+      <workItem from="1744127340431" duration="2008000" />
     </task>
     <task id="LOCAL-00001" summary="yugeon branch test1">
       <option name="closed" value="true" />
@@ -310,7 +319,55 @@
       <option name="project" value="LOCAL" />
       <updated>1744037162491</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="yugeon branch setting">
+      <option name="closed" value="true" />
+      <created>1744037520523</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1744037520523</updated>
+    </task>
+    <task id="LOCAL-00012" summary="yugeon branch 250409">
+      <option name="closed" value="true" />
+      <created>1744128416786</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1744128416786</updated>
+    </task>
+    <task id="LOCAL-00013" summary="yugeon branch 250409">
+      <option name="closed" value="true" />
+      <created>1744129040633</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1744129040633</updated>
+    </task>
+    <task id="LOCAL-00014" summary="yugeon branch 250409">
+      <option name="closed" value="true" />
+      <created>1744129278366</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1744129278366</updated>
+    </task>
+    <task id="LOCAL-00015" summary="yugeon branch 250409">
+      <option name="closed" value="true" />
+      <created>1744130386243</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1744130386243</updated>
+    </task>
+    <task id="LOCAL-00016" summary="yugeon branch 250409">
+      <option name="closed" value="true" />
+      <created>1744131182439</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1744131182439</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -324,7 +381,9 @@
     <MESSAGE value="Merge remote-tracking branch 'origin/yugeon' into yugeon&#10;&#10;# Conflicts:&#10;#&#9;yugeon_branch2.ipynb" />
     <MESSAGE value="main set" />
     <MESSAGE value="main setting" />
-    <option name="LAST_COMMIT_MESSAGE" value="main setting" />
+    <MESSAGE value="yugeon branch setting" />
+    <MESSAGE value="yugeon branch 250409" />
+    <option name="LAST_COMMIT_MESSAGE" value="yugeon branch 250409" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/DL_Study$GitHub_install.coverage" NAME="GitHub_install 커버리지 결과" MODIFIED="1744034650559" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
