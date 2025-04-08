@@ -4,10 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="496b16e6-6c3f-4a8a-a89a-bd5f93687991" name="변경" comment="yugeon branch 250408">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yg2127/250407.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/week1_practice/250407.ipynb" afterDir="false" />
-    </list>
+    <list default="true" id="496b16e6-6c3f-4a8a-a89a-bd5f93687991" name="변경" comment="yugeon branch 250409" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -238,7 +235,7 @@
       <workItem from="1744034643857" duration="2298000" />
       <workItem from="1744037326787" duration="14000" />
       <workItem from="1744038031115" duration="1371000" />
-      <workItem from="1744127340431" duration="1011000" />
+      <workItem from="1744127340431" duration="1687000" />
     </task>
     <task id="LOCAL-00001" summary="yugeon branch test1">
       <option name="closed" value="true" />
@@ -328,7 +325,15 @@
       <option name="project" value="LOCAL" />
       <updated>1744037520523</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="yugeon branch 250409">
+      <option name="closed" value="true" />
+      <created>1744128416786</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1744128416786</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -343,7 +348,8 @@
     <MESSAGE value="main set" />
     <MESSAGE value="main setting" />
     <MESSAGE value="yugeon branch setting" />
-    <option name="LAST_COMMIT_MESSAGE" value="yugeon branch setting" />
+    <MESSAGE value="yugeon branch 250409" />
+    <option name="LAST_COMMIT_MESSAGE" value="yugeon branch 250409" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/DL_Study$GitHub_install.coverage" NAME="GitHub_install 커버리지 결과" MODIFIED="1744034650559" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
