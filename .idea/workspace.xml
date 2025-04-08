@@ -6,7 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="496b16e6-6c3f-4a8a-a89a-bd5f93687991" name="변경" comment="yugeon branch 250409">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/week1_practice/4-4-2.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/week1_practice/4-4-2.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/week1_practice/Hole_Classifier.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/week1_practice/Hole_Classifier.ipynb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -352,7 +352,15 @@
       <option name="project" value="LOCAL" />
       <updated>1744129278366</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="yugeon branch 250409">
+      <option name="closed" value="true" />
+      <created>1744130386243</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1744130386243</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
