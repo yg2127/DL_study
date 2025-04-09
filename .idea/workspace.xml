@@ -6,6 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="496b16e6-6c3f-4a8a-a89a-bd5f93687991" name="변경" comment="yugeon branch 250409">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/practice/yugeon/week1_practice/Hole_Classifier.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/practice/yugeon/week1_practice/Hole_Classifier.ipynb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -238,6 +239,7 @@
       <workItem from="1744037326787" duration="14000" />
       <workItem from="1744038031115" duration="1371000" />
       <workItem from="1744127340431" duration="2008000" />
+      <workItem from="1744178686885" duration="2708000" />
     </task>
     <task id="LOCAL-00001" summary="yugeon branch test1">
       <option name="closed" value="true" />
