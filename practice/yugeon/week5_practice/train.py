@@ -27,8 +27,15 @@ def train(args):
     4) 에폭별 평균 손실 및 정확도 출력
     5) 최종 모델 저장
     """
+    # 학습 소요시간 측정
+    import time
+    start_time = time.time()
+
     # 1) 디바이스 설정: MPS 우선, 없으면 CPU
-    if torch.backends.mps.is_available() and torch.backends.mps.is_built():
+    if torch.cuda.is_available():
+        device = torch.device("cuda")
+        print("Using CUDA device")
+    elif torch.backends.mps.is_available() and torch.backends.mps.is_built():
         device = torch.device("mps")
         print("Using MPS device")
     else:
@@ -65,7 +72,7 @@ def train(args):
     save_model(model, args.save_path)
     print(f'Model saved to {args.save_path}')
 
-    # 6)
+    # 6) 테스트데이터 점수
     model.eval()
     test_acc = 0.0
     with torch.no_grad():
@@ -73,6 +80,10 @@ def train(args):
             inputs, labels = inputs.to(device), labels.to(device)
             outputs = model(inputs)
             test_acc += accuracy(outputs, labels)
+
+    # 시간 측정 후 출력
+    elapsed_time = time.time() - start_time
+    print(f"Total training time: {elapsed_time:.2f} seconds")
     print(f"Test Accuracy: {test_acc / len(testloader):.4f}")
 
 
