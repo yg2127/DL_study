@@ -23,11 +23,10 @@ def preprocess_text(text, vocab, max_len=30):
     """
     # 토큰화
     tokens = tokenizer(text)
-    # unk 및 pad 인덱스
-    unk_idx = vocab['<unk>']
+    # pad 인덱스
     pad_idx = vocab['<pad>']
-    # 각 토큰을 인덱스로 변환 (사전에 없으면 unk)
-    indices = [vocab.get(tok, unk_idx) for tok in tokens]
+    # 각 토큰을 인덱스로 변환 (default unk handled by vocab)
+    indices = [vocab[tok] for tok in tokens]
     # max_len 넘으면 자르고, 모자라면 pad로 채우기
     padded = indices[:max_len] + [pad_idx] * max(0, max_len - len(indices))
     # (max_len,) → (1, max_len)으로 차원 확장

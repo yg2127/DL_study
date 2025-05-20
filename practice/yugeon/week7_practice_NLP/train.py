@@ -1,3 +1,16 @@
+import warnings
+import torchtext
+
+# torchtext deprecation 경고 끄기
+torchtext.disable_torchtext_deprecation_warning()
+
+# torchdata DataPipes 경고 끄기
+warnings.filterwarnings(
+    "ignore",
+    message=".*The 'datapipes', 'dataloader2' modules are deprecated.*",
+    module="torchdata.datapipes"
+)
+
 # train.py
 import argparse
 import torch
