@@ -40,20 +40,20 @@ else:
 labels = ["World", "Sports", "Business", "Sci/Tech"]
 
 # 2) 저장된 체크포인트 로드
-ckpt = torch.load("agnews_model.pt")
+ckpt = torch.load("agnews_model.pt", map_location=device)
 vocab = ckpt['vocab']
 
 # 3) 모델 초기화 및 가중치 불러오기
 pad_idx = vocab['<pad>']
 model = TextClassifier(
     vocab_size=len(vocab),
-    embed_dim=64,
-    hidden_dim=128,
+    embed_dim=512,
+    hidden_dim=512,
     num_class=len(labels),
     pad_idx=pad_idx
-)
+).to(device)               # ← 모델을 디바이스로 옮기기
 model.load_state_dict(ckpt['model_state'])
-model.eval()  # 평가 모드로 전환
+model.eval()               # 평가 모드로 전환
 
 # 4) 무한 루프를 돌며 사용자 입력 처리
 print("=== AG News Classifier (CLI) ===")
@@ -61,11 +61,14 @@ while True:
     text = input("\nEnter news > ").strip()
     if not text:
         continue   # 빈 문자열 입력 시 다시 받기
+
     # 4-1) 텍스트 전처리: 토큰화→인덱스→패딩→Tensor 변환
-    x = preprocess_text(text, vocab, max_len=30)
+    x = preprocess_text(text, vocab, max_len=30).to(device)   # ← 입력도 디바이스로 옮기기
+
     # 4-2) 예측
     with torch.no_grad():
         logits = model(x)
         pred = logits.argmax(dim=1).item()
+
     # 4-3) 결과 출력
     print(f"Predicted category: {labels[pred]}")

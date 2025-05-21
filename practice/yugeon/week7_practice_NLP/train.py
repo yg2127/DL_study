@@ -29,9 +29,9 @@ def parse_args():
     # 하이퍼파라미터 옵션
     parser.add_argument("--batch-size", type=int, default=32,
                         help="훈련 배치 크기")
-    parser.add_argument("--embed-dim", type=int, default=64,
+    parser.add_argument("--embed-dim", type=int, default=512,
                         help="임베딩 차원")
-    parser.add_argument("--hidden-dim", type=int, default=128,
+    parser.add_argument("--hidden-dim", type=int, default=512,
                         help="LSTM 은닉 상태 크기")
     parser.add_argument("--max-len", type=int, default=30,
                         help="입력 시퀀스 최대 길이")
@@ -77,6 +77,8 @@ def main():
         num_class=4,
         pad_idx=pad_idx
     )
+    model = model.to(device)
+
     loss_fn   = nn.CrossEntropyLoss()
     optimizer = optim.Adam(model.parameters(), lr=args.lr)
 
@@ -85,6 +87,9 @@ def main():
         total_loss = 0.0
         model.train()
         for texts, labels in train_loader:
+            texts  = texts.to(device)
+            labels = labels.to(device)
+
             optimizer.zero_grad()
             logits = model(texts)
             loss   = loss_fn(logits, labels)
