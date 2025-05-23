@@ -10,6 +10,7 @@ warnings.filterwarnings(
     message=".*The 'datapipes', 'dataloader2' modules are deprecated.*",
     module="torchdata.datapipes"
 )
+warnings.filterwarnings("ignore", category=UserWarning, module="torchdata.datapipes")
 
 # train.py
 import argparse
